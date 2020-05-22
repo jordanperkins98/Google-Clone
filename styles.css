@@ -9,35 +9,112 @@
     
 }
 
-.left-nav-bar{
-
-}
-
 .right-nav-bar{
     float: right;
 }
 
 #sign-in{
-    padding-right: 1%;
+    padding-top: 6px !important;
+    height: 15px;
+    width: 63px;
+    margin-right: 1.5%;
+    position: relative;
+    bottom: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     font-family: arial,sans-serif;
-    color: #000;
-    opacity: 0.75;
+    color: white;
+    text-align: center;
+    opacity: 1;
     text-decoration: none;
     font-size: 0.85em;
+    border: solid #4285f4;
+    border-radius: 2.5px;
+    background-color: #4285f4;
+    font-weight: bold;
+    font-size: 0.80em;
 }
 
+
 #icon{
+    background-image: url(/Images/google_apps_black.png);
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 4px;
     padding-right: 1%;
     font-family: arial,sans-serif;
     color: #000;
     opacity: 0.75;
     text-decoration: none;
     font-size: 0.85em;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    margin-top: 26.9%;
+    height: 27px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 13px;
+}
+
+.footer-bar{
+    font-family: arial,sans-serif;
+    color: #000;
+    opacity: 0.60;
+    text-decoration: none;
+    font-size: 0.89em;
+}
+
+.footer-bar-right{
+    font-family: arial,sans-serif;
+    color: #000;
+    opacity: 0.60;
+    text-decoration: none;
+    font-size: 0.89em;
+}
+
+#searchworks{
+    padding-left: 21px;
+}
+
+#business{
+    padding-left: 21px;
+}
+
+#settings{
+    padding-right: 25px;
+}
+
+#terms{
+    padding-right: 24px;
+}
+
+#privacy{
+    padding-right: 24px;
+}
+
+#advertising{
+    padding-left: 30px;
+}
+
+
+.footer-bar-right{
+    float: right;
 }
 
 #images{
-    padding-left: 0.7%;
+    padding-left: 1%;
     padding-right: 1%;
+}
+
+.footer-bar:hover{
+    text-decoration: underline;
+}
+
+.footer-bar-right:hover{
+    text-decoration: underline;
 }
 
 #about{
